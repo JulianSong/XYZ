@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Expression" representedClassName="Expression" syncable="YES">
+        <attribute name="color" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="expressionString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isHide" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="notation" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="prefixNotation" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="timeStamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MathFunction" representedClassName="MathFunction" syncable="YES">
+        <attribute name="cfuncion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="operandSeveral" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Operator" representedClassName="Operator" syncable="YES">
+        <attribute name="leftAssoc" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="operandSeveral" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="precedence" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Expression" positionX="160" positionY="192" width="128" height="150"/>
+        <element name="MathFunction" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Operator" positionX="160" positionY="192" width="128" height="105"/>
+    </elements>
+</model>

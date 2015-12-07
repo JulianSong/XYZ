@@ -1,0 +1,16 @@
+name,operandSeveral,cfuncion
+sin,1,sinf:
+cos,1,cosf:
+tan,1,tanf:
+cot,1,cotf:
+sec,1,secf:
+csc,1,cscf:
+asin,1,asinf:
+acos,1,acosf:
+atan,1,atanf:
+ln,1,lnf:
+log2,1,log2f:
+log10,1,log10f:
+abs,1,absf:
+ceil,1,ceilf:
+floor,1,floorf:
