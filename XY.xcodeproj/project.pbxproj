@@ -7,28 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9015BE016EC9A0400BF2A76 /* XYError.m in Sources */ = {isa = PBXBuildFile; fileRef = B9015BDF16EC9A0400BF2A76 /* XYError.m */; };
 		B911C01D16EDF74E0078C3AF /* button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B911C01C16EDF74E0078C3AF /* button_normal.png */; };
 		B911C02016EE051C0078C3AF /* dark_noise_bkg.png in Resources */ = {isa = PBXBuildFile; fileRef = B911C01F16EE051C0078C3AF /* dark_noise_bkg.png */; };
 		B911C02216EE06340078C3AF /* button_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B911C02116EE06340078C3AF /* button_selected.png */; };
 		B911C02816EE1B070078C3AF /* button_normal_bulue.png in Resources */ = {isa = PBXBuildFile; fileRef = B911C02716EE1B070078C3AF /* button_normal_bulue.png */; };
 		B911C02A16EE1D450078C3AF /* button_normal_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = B911C02916EE1D450078C3AF /* button_normal_gray.png */; };
-		B936836316D10B9E00F4CA3F /* MathFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = B936836216D10B9E00F4CA3F /* MathFunction.m */; };
-		B94AE91C15FC1A6400AC0342 /* UICoordinateView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94AE91B15FC1A6400AC0342 /* UICoordinateView.m */; };
-		B94AE91F15FC1C3E00AC0342 /* UIFunctionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94AE91E15FC1C3E00AC0342 /* UIFunctionsView.m */; };
-		B94AE92515FC2A3C00AC0342 /* UIScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94AE92415FC2A3C00AC0342 /* UIScaleView.m */; };
+		B93CD80B1C1677500090F416 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93CD80A1C1677500090F416 /* Launch Screen.storyboard */; };
+		B93CD8171C1677CA0090F416 /* UICoordinateView.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD8101C1677CA0090F416 /* UICoordinateView.m */; };
+		B93CD8181C1677CA0090F416 /* UIFunctionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD8121C1677CA0090F416 /* UIFunctionsView.m */; };
+		B93CD8191C1677CA0090F416 /* UIGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD8141C1677CA0090F416 /* UIGridView.m */; };
+		B93CD81A1C1677CA0090F416 /* UIScaleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD8161C1677CA0090F416 /* UIScaleView.m */; };
+		B93CD8211C1678140090F416 /* AddFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD81C1C1678130090F416 /* AddFunctionViewController.m */; };
+		B93CD8221C1678140090F416 /* FunctionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD81E1C1678130090F416 /* FunctionListViewController.m */; };
+		B93CD8231C1678140090F416 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD8201C1678130090F416 /* ViewController.m */; };
+		B93CD8351C16786A0090F416 /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD8251C16786A0090F416 /* Expression.m */; };
+		B93CD8361C16786A0090F416 /* MathFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD8271C16786A0090F416 /* MathFunction.m */; };
+		B93CD8371C16786A0090F416 /* Operator.csv in Resources */ = {isa = PBXBuildFile; fileRef = B93CD8281C16786A0090F416 /* Operator.csv */; };
+		B93CD8381C16786A0090F416 /* Operator.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD82A1C16786A0090F416 /* Operator.m */; };
+		B93CD8391C16786A0090F416 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD82C1C16786A0090F416 /* UIColor+Random.m */; };
+		B93CD83A1C16786A0090F416 /* XYArithmetic.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD82E1C16786A0090F416 /* XYArithmetic.m */; };
+		B93CD83B1C16786A0090F416 /* XYError.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD8301C16786A0090F416 /* XYError.m */; };
+		B93CD83C1C16786A0090F416 /* XYMathFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD8321C16786A0090F416 /* XYMathFunction.m */; };
+		B93CD83D1C16786A0090F416 /* XYOption.m in Sources */ = {isa = PBXBuildFile; fileRef = B93CD8341C16786A0090F416 /* XYOption.m */; };
+		B93CD8481C16790C0090F416 /* button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = B93CD83F1C16790C0090F416 /* button_normal.png */; };
+		B93CD8491C16790C0090F416 /* button_normal_bulue.png in Resources */ = {isa = PBXBuildFile; fileRef = B93CD8401C16790C0090F416 /* button_normal_bulue.png */; };
+		B93CD84A1C16790C0090F416 /* button_normal_bulue_140.png in Resources */ = {isa = PBXBuildFile; fileRef = B93CD8411C16790C0090F416 /* button_normal_bulue_140.png */; };
+		B93CD84B1C16790C0090F416 /* button_normal_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = B93CD8421C16790C0090F416 /* button_normal_gray.png */; };
+		B93CD84C1C16790C0090F416 /* button_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = B93CD8431C16790C0090F416 /* button_selected.png */; };
+		B93CD84D1C16790C0090F416 /* plus_alt_24x24.png in Resources */ = {isa = PBXBuildFile; fileRef = B93CD8441C16790C0090F416 /* plus_alt_24x24.png */; };
+		B93CD84E1C16790C0090F416 /* tool.png in Resources */ = {isa = PBXBuildFile; fileRef = B93CD8451C16790C0090F416 /* tool.png */; };
+		B93CD84F1C16790C0090F416 /* unview.png in Resources */ = {isa = PBXBuildFile; fileRef = B93CD8461C16790C0090F416 /* unview.png */; };
+		B93CD8501C16790C0090F416 /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = B93CD8471C16790C0090F416 /* view.png */; };
+		B93CD8521C16791B0090F416 /* MathFunction.csv in Resources */ = {isa = PBXBuildFile; fileRef = B93CD8511C16791B0090F416 /* MathFunction.csv */; };
 		B95D545416F2D83300519F1D /* button_normal_bulue_140.png in Resources */ = {isa = PBXBuildFile; fileRef = B95D545316F2D83300519F1D /* button_normal_bulue_140.png */; };
 		B95D545716F2EC1E00519F1D /* plus_alt_24x24.png in Resources */ = {isa = PBXBuildFile; fileRef = B95D545616F2EC1E00519F1D /* plus_alt_24x24.png */; };
 		B96DE2521653E5BB00CE78B8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96DE2511653E5BB00CE78B8 /* CoreData.framework */; };
-		B970619A16DB32FC00F642E3 /* Expression.m in Sources */ = {isa = PBXBuildFile; fileRef = B970619916DB32FC00F642E3 /* Expression.m */; };
 		B9711530164D656F0007F28C /* XY.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B971152E164D656F0007F28C /* XY.xcdatamodeld */; };
-		B975B5BA1600C440008E8261 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = B975B5B91600C440008E8261 /* UIColor+Random.m */; };
-		B9777703160F5BDE00EC4CDA /* XYOption.m in Sources */ = {isa = PBXBuildFile; fileRef = B9777702160F5BDE00EC4CDA /* XYOption.m */; };
-		B9777709160F610F00EC4CDA /* XYArithmetic.m in Sources */ = {isa = PBXBuildFile; fileRef = B9777708160F610F00EC4CDA /* XYArithmetic.m */; };
-		B9967F5D15FF813400886559 /* XYMathFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = B9967F5C15FF813400886559 /* XYMathFunction.m */; };
-		B9967F6515FF83F500886559 /* UIGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9967F6415FF83F500886559 /* UIGridView.m */; };
-		B9A7DAC0160374E700B0098D /* FunctionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A7DABF160374E700B0098D /* FunctionListViewController.m */; };
-		B9A7DAC516038FF500B0098D /* AddFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A7DAC416038FF500B0098D /* AddFunctionViewController.m */; };
 		B9F1E5EC16E63CAE00A3AB9F /* view.png in Resources */ = {isa = PBXBuildFile; fileRef = B9F1E5EB16E63CAE00A3AB9F /* view.png */; };
 		B9F1E5EE16E63E1800A3AB9F /* unview.png in Resources */ = {isa = PBXBuildFile; fileRef = B9F1E5ED16E63E1800A3AB9F /* unview.png */; };
 		B9F1E5F016E63FB200A3AB9F /* tool.png in Resources */ = {isa = PBXBuildFile; fileRef = B9F1E5EF16E63FB200A3AB9F /* tool.png */; };
@@ -39,48 +53,62 @@
 		B9FCF88115F505C2005B94E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FCF88015F505C2005B94E8 /* main.m */; };
 		B9FCF88515F505C2005B94E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FCF88415F505C2005B94E8 /* AppDelegate.m */; };
 		B9FCF88815F505C2005B94E8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9FCF88615F505C2005B94E8 /* MainStoryboard.storyboard */; };
-		B9FCF88B15F505C2005B94E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FCF88A15F505C2005B94E8 /* ViewController.m */; };
 		B9FFD67C16CB78B400315F3B /* Operator.csv in Resources */ = {isa = PBXBuildFile; fileRef = B9FFD67B16CB78B400315F3B /* Operator.csv */; };
-		B9FFD68016CB79C400315F3B /* Operator.m in Sources */ = {isa = PBXBuildFile; fileRef = B9FFD67F16CB79C300315F3B /* Operator.m */; };
 		B9FFD68216CBC62100315F3B /* MathFunction.csv in Resources */ = {isa = PBXBuildFile; fileRef = B9FFD68116CBC62100315F3B /* MathFunction.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B9015BDE16EC9A0400BF2A76 /* XYError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYError.h; sourceTree = "<group>"; };
-		B9015BDF16EC9A0400BF2A76 /* XYError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYError.m; sourceTree = "<group>"; };
 		B911C01C16EDF74E0078C3AF /* button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal.png; sourceTree = "<group>"; };
 		B911C01F16EE051C0078C3AF /* dark_noise_bkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark_noise_bkg.png; sourceTree = "<group>"; };
 		B911C02116EE06340078C3AF /* button_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_selected.png; sourceTree = "<group>"; };
 		B911C02716EE1B070078C3AF /* button_normal_bulue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal_bulue.png; sourceTree = "<group>"; };
 		B911C02916EE1D450078C3AF /* button_normal_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal_gray.png; sourceTree = "<group>"; };
-		B936836116D10B9D00F4CA3F /* MathFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathFunction.h; sourceTree = "<group>"; };
-		B936836216D10B9E00F4CA3F /* MathFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathFunction.m; sourceTree = "<group>"; };
-		B94AE91A15FC1A6400AC0342 /* UICoordinateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICoordinateView.h; sourceTree = "<group>"; };
-		B94AE91B15FC1A6400AC0342 /* UICoordinateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICoordinateView.m; sourceTree = "<group>"; };
-		B94AE91D15FC1C3E00AC0342 /* UIFunctionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFunctionsView.h; sourceTree = "<group>"; };
-		B94AE91E15FC1C3E00AC0342 /* UIFunctionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFunctionsView.m; sourceTree = "<group>"; };
-		B94AE92315FC2A3C00AC0342 /* UIScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScaleView.h; sourceTree = "<group>"; };
-		B94AE92415FC2A3C00AC0342 /* UIScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScaleView.m; sourceTree = "<group>"; };
+		B93CD80A1C1677500090F416 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B93CD80F1C1677CA0090F416 /* UICoordinateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICoordinateView.h; sourceTree = "<group>"; };
+		B93CD8101C1677CA0090F416 /* UICoordinateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICoordinateView.m; sourceTree = "<group>"; };
+		B93CD8111C1677CA0090F416 /* UIFunctionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFunctionsView.h; sourceTree = "<group>"; };
+		B93CD8121C1677CA0090F416 /* UIFunctionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIFunctionsView.m; sourceTree = "<group>"; };
+		B93CD8131C1677CA0090F416 /* UIGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGridView.h; sourceTree = "<group>"; };
+		B93CD8141C1677CA0090F416 /* UIGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGridView.m; sourceTree = "<group>"; };
+		B93CD8151C1677CA0090F416 /* UIScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScaleView.h; sourceTree = "<group>"; };
+		B93CD8161C1677CA0090F416 /* UIScaleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScaleView.m; sourceTree = "<group>"; };
+		B93CD81B1C1678130090F416 /* AddFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFunctionViewController.h; sourceTree = "<group>"; };
+		B93CD81C1C1678130090F416 /* AddFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFunctionViewController.m; sourceTree = "<group>"; };
+		B93CD81D1C1678130090F416 /* FunctionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionListViewController.h; sourceTree = "<group>"; };
+		B93CD81E1C1678130090F416 /* FunctionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionListViewController.m; sourceTree = "<group>"; };
+		B93CD81F1C1678130090F416 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B93CD8201C1678130090F416 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B93CD8241C16786A0090F416 /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
+		B93CD8251C16786A0090F416 /* Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expression.m; sourceTree = "<group>"; };
+		B93CD8261C16786A0090F416 /* MathFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathFunction.h; sourceTree = "<group>"; };
+		B93CD8271C16786A0090F416 /* MathFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathFunction.m; sourceTree = "<group>"; };
+		B93CD8281C16786A0090F416 /* Operator.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Operator.csv; sourceTree = "<group>"; };
+		B93CD8291C16786A0090F416 /* Operator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operator.h; sourceTree = "<group>"; };
+		B93CD82A1C16786A0090F416 /* Operator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operator.m; sourceTree = "<group>"; };
+		B93CD82B1C16786A0090F416 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		B93CD82C1C16786A0090F416 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		B93CD82D1C16786A0090F416 /* XYArithmetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYArithmetic.h; sourceTree = "<group>"; };
+		B93CD82E1C16786A0090F416 /* XYArithmetic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYArithmetic.m; sourceTree = "<group>"; };
+		B93CD82F1C16786A0090F416 /* XYError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYError.h; sourceTree = "<group>"; };
+		B93CD8301C16786A0090F416 /* XYError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYError.m; sourceTree = "<group>"; };
+		B93CD8311C16786A0090F416 /* XYMathFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMathFunction.h; sourceTree = "<group>"; };
+		B93CD8321C16786A0090F416 /* XYMathFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMathFunction.m; sourceTree = "<group>"; };
+		B93CD8331C16786A0090F416 /* XYOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYOption.h; sourceTree = "<group>"; };
+		B93CD8341C16786A0090F416 /* XYOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYOption.m; sourceTree = "<group>"; };
+		B93CD83F1C16790C0090F416 /* button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal.png; sourceTree = "<group>"; };
+		B93CD8401C16790C0090F416 /* button_normal_bulue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal_bulue.png; sourceTree = "<group>"; };
+		B93CD8411C16790C0090F416 /* button_normal_bulue_140.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal_bulue_140.png; sourceTree = "<group>"; };
+		B93CD8421C16790C0090F416 /* button_normal_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal_gray.png; sourceTree = "<group>"; };
+		B93CD8431C16790C0090F416 /* button_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_selected.png; sourceTree = "<group>"; };
+		B93CD8441C16790C0090F416 /* plus_alt_24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_alt_24x24.png; sourceTree = "<group>"; };
+		B93CD8451C16790C0090F416 /* tool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tool.png; sourceTree = "<group>"; };
+		B93CD8461C16790C0090F416 /* unview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unview.png; sourceTree = "<group>"; };
+		B93CD8471C16790C0090F416 /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
+		B93CD8511C16791B0090F416 /* MathFunction.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MathFunction.csv; sourceTree = "<group>"; };
 		B95D545316F2D83300519F1D /* button_normal_bulue_140.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_normal_bulue_140.png; sourceTree = "<group>"; };
 		B95D545616F2EC1E00519F1D /* plus_alt_24x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_alt_24x24.png; sourceTree = "<group>"; };
 		B96DE2511653E5BB00CE78B8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		B970619816DB32FC00F642E3 /* Expression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Expression.h; sourceTree = "<group>"; };
-		B970619916DB32FC00F642E3 /* Expression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Expression.m; sourceTree = "<group>"; };
 		B971152F164D656F0007F28C /* XY.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = XY.xcdatamodel; sourceTree = "<group>"; };
-		B975B5B81600C440008E8261 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
-		B975B5B91600C440008E8261 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
-		B9777701160F5BDE00EC4CDA /* XYOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYOption.h; sourceTree = "<group>"; };
-		B9777702160F5BDE00EC4CDA /* XYOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYOption.m; sourceTree = "<group>"; };
-		B9777707160F610F00EC4CDA /* XYArithmetic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYArithmetic.h; sourceTree = "<group>"; };
-		B9777708160F610F00EC4CDA /* XYArithmetic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYArithmetic.m; sourceTree = "<group>"; };
-		B9967F5B15FF813400886559 /* XYMathFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYMathFunction.h; sourceTree = "<group>"; };
-		B9967F5C15FF813400886559 /* XYMathFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYMathFunction.m; sourceTree = "<group>"; };
-		B9967F6315FF83F500886559 /* UIGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGridView.h; sourceTree = "<group>"; };
-		B9967F6415FF83F500886559 /* UIGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGridView.m; sourceTree = "<group>"; };
-		B9A7DABE160374E700B0098D /* FunctionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionListViewController.h; sourceTree = "<group>"; };
-		B9A7DABF160374E700B0098D /* FunctionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionListViewController.m; sourceTree = "<group>"; };
-		B9A7DAC316038FF500B0098D /* AddFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFunctionViewController.h; sourceTree = "<group>"; };
-		B9A7DAC416038FF500B0098D /* AddFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFunctionViewController.m; sourceTree = "<group>"; };
 		B9F1E5EB16E63CAE00A3AB9F /* view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = view.png; sourceTree = "<group>"; };
 		B9F1E5ED16E63E1800A3AB9F /* unview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unview.png; sourceTree = "<group>"; };
 		B9F1E5EF16E63FB200A3AB9F /* tool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tool.png; sourceTree = "<group>"; };
@@ -95,11 +123,7 @@
 		B9FCF88315F505C2005B94E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B9FCF88415F505C2005B94E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B9FCF88715F505C2005B94E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B9FCF88915F505C2005B94E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B9FCF88A15F505C2005B94E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B9FFD67B16CB78B400315F3B /* Operator.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Operator.csv; sourceTree = "<group>"; };
-		B9FFD67E16CB79C300315F3B /* Operator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operator.h; sourceTree = "<group>"; };
-		B9FFD67F16CB79C300315F3B /* Operator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operator.m; sourceTree = "<group>"; };
 		B9FFD68116CBC62100315F3B /* MathFunction.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MathFunction.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +142,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B93CD80C1C1677940090F416 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B93CD81B1C1678130090F416 /* AddFunctionViewController.h */,
+				B93CD81C1C1678130090F416 /* AddFunctionViewController.m */,
+				B93CD81D1C1678130090F416 /* FunctionListViewController.h */,
+				B93CD81E1C1678130090F416 /* FunctionListViewController.m */,
+				B93CD81F1C1678130090F416 /* ViewController.h */,
+				B93CD8201C1678130090F416 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B93CD80D1C1677940090F416 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B93CD8531C16792E0090F416 /* CSV */,
+				B93CD8241C16786A0090F416 /* Expression.h */,
+				B93CD8251C16786A0090F416 /* Expression.m */,
+				B93CD8261C16786A0090F416 /* MathFunction.h */,
+				B93CD8271C16786A0090F416 /* MathFunction.m */,
+				B93CD8291C16786A0090F416 /* Operator.h */,
+				B93CD82A1C16786A0090F416 /* Operator.m */,
+				B93CD82B1C16786A0090F416 /* UIColor+Random.h */,
+				B93CD82C1C16786A0090F416 /* UIColor+Random.m */,
+				B93CD82D1C16786A0090F416 /* XYArithmetic.h */,
+				B93CD82E1C16786A0090F416 /* XYArithmetic.m */,
+				B93CD82F1C16786A0090F416 /* XYError.h */,
+				B93CD8301C16786A0090F416 /* XYError.m */,
+				B93CD8311C16786A0090F416 /* XYMathFunction.h */,
+				B93CD8321C16786A0090F416 /* XYMathFunction.m */,
+				B93CD8331C16786A0090F416 /* XYOption.h */,
+				B93CD8341C16786A0090F416 /* XYOption.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B93CD80E1C1677940090F416 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B93CD80F1C1677CA0090F416 /* UICoordinateView.h */,
+				B93CD8101C1677CA0090F416 /* UICoordinateView.m */,
+				B93CD8111C1677CA0090F416 /* UIFunctionsView.h */,
+				B93CD8121C1677CA0090F416 /* UIFunctionsView.m */,
+				B93CD8131C1677CA0090F416 /* UIGridView.h */,
+				B93CD8141C1677CA0090F416 /* UIGridView.m */,
+				B93CD8151C1677CA0090F416 /* UIScaleView.h */,
+				B93CD8161C1677CA0090F416 /* UIScaleView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B93CD83E1C16790C0090F416 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				B93CD83F1C16790C0090F416 /* button_normal.png */,
+				B93CD8401C16790C0090F416 /* button_normal_bulue.png */,
+				B93CD8411C16790C0090F416 /* button_normal_bulue_140.png */,
+				B93CD8421C16790C0090F416 /* button_normal_gray.png */,
+				B93CD8431C16790C0090F416 /* button_selected.png */,
+				B93CD8441C16790C0090F416 /* plus_alt_24x24.png */,
+				B93CD8451C16790C0090F416 /* tool.png */,
+				B93CD8461C16790C0090F416 /* unview.png */,
+				B93CD8471C16790C0090F416 /* view.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		B93CD8531C16792E0090F416 /* CSV */ = {
+			isa = PBXGroup;
+			children = (
+				B93CD8511C16791B0090F416 /* MathFunction.csv */,
+				B93CD8281C16786A0090F416 /* Operator.csv */,
+			);
+			name = CSV;
+			sourceTree = "<group>";
+		};
 		B94AE92615FC4E7C00AC0342 /* image */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,65 +234,6 @@
 				B9F1E5EB16E63CAE00A3AB9F /* view.png */,
 			);
 			name = image;
-			sourceTree = "<group>";
-		};
-		B9777705160F5BEB00EC4CDA /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B980FFEB1651349D0041791F /* DataModel */,
-				B9777701160F5BDE00EC4CDA /* XYOption.h */,
-				B9777702160F5BDE00EC4CDA /* XYOption.m */,
-				B9777707160F610F00EC4CDA /* XYArithmetic.h */,
-				B9777708160F610F00EC4CDA /* XYArithmetic.m */,
-				B9967F5B15FF813400886559 /* XYMathFunction.h */,
-				B9967F5C15FF813400886559 /* XYMathFunction.m */,
-				B975B5B81600C440008E8261 /* UIColor+Random.h */,
-				B975B5B91600C440008E8261 /* UIColor+Random.m */,
-				B9015BDE16EC9A0400BF2A76 /* XYError.h */,
-				B9015BDF16EC9A0400BF2A76 /* XYError.m */,
-			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		B9777706160F609E00EC4CDA /* View */ = {
-			isa = PBXGroup;
-			children = (
-				B94AE91D15FC1C3E00AC0342 /* UIFunctionsView.h */,
-				B94AE91E15FC1C3E00AC0342 /* UIFunctionsView.m */,
-				B9967F6315FF83F500886559 /* UIGridView.h */,
-				B9967F6415FF83F500886559 /* UIGridView.m */,
-				B94AE91A15FC1A6400AC0342 /* UICoordinateView.h */,
-				B94AE91B15FC1A6400AC0342 /* UICoordinateView.m */,
-				B94AE92315FC2A3C00AC0342 /* UIScaleView.h */,
-				B94AE92415FC2A3C00AC0342 /* UIScaleView.m */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
-		B980FFEB1651349D0041791F /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-				B970619816DB32FC00F642E3 /* Expression.h */,
-				B970619916DB32FC00F642E3 /* Expression.m */,
-				B9FFD67E16CB79C300315F3B /* Operator.h */,
-				B9FFD67F16CB79C300315F3B /* Operator.m */,
-				B936836116D10B9D00F4CA3F /* MathFunction.h */,
-				B936836216D10B9E00F4CA3F /* MathFunction.m */,
-			);
-			name = DataModel;
-			sourceTree = "<group>";
-		};
-		B9A7DAC216038F5700B0098D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				B9A7DABE160374E700B0098D /* FunctionListViewController.h */,
-				B9A7DABF160374E700B0098D /* FunctionListViewController.m */,
-				B9FCF88915F505C2005B94E8 /* ViewController.h */,
-				B9FCF88A15F505C2005B94E8 /* ViewController.m */,
-				B9A7DAC316038FF500B0098D /* AddFunctionViewController.h */,
-				B9A7DAC416038FF500B0098D /* AddFunctionViewController.m */,
-			);
-			name = Controller;
 			sourceTree = "<group>";
 		};
 		B9FCF86515F505C2005B94E8 = {
@@ -225,11 +267,12 @@
 		B9FCF87A15F505C2005B94E8 /* XY */ = {
 			isa = PBXGroup;
 			children = (
+				B93CD83E1C16790C0090F416 /* image */,
+				B93CD80C1C1677940090F416 /* Controller */,
+				B93CD80D1C1677940090F416 /* Model */,
+				B93CD80E1C1677940090F416 /* Views */,
 				B9FCF88315F505C2005B94E8 /* AppDelegate.h */,
 				B9FCF88415F505C2005B94E8 /* AppDelegate.m */,
-				B9777706160F609E00EC4CDA /* View */,
-				B9777705160F5BEB00EC4CDA /* Model */,
-				B9A7DAC216038F5700B0098D /* Controller */,
 				B9FCF87B15F505C2005B94E8 /* Supporting Files */,
 			);
 			name = XY;
@@ -248,6 +291,7 @@
 				B9FCF88215F505C2005B94E8 /* XY-Prefix.pch */,
 				B9FFD67B16CB78B400315F3B /* Operator.csv */,
 				B9FFD68116CBC62100315F3B /* MathFunction.csv */,
+				B93CD80A1C1677500090F416 /* Launch Screen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -310,15 +354,27 @@
 			files = (
 				B9FCF87F15F505C2005B94E8 /* InfoPlist.strings in Resources */,
 				B9FCF88815F505C2005B94E8 /* MainStoryboard.storyboard in Resources */,
+				B93CD8371C16786A0090F416 /* Operator.csv in Resources */,
 				B9FFD67C16CB78B400315F3B /* Operator.csv in Resources */,
+				B93CD8491C16790C0090F416 /* button_normal_bulue.png in Resources */,
+				B93CD84A1C16790C0090F416 /* button_normal_bulue_140.png in Resources */,
+				B93CD84E1C16790C0090F416 /* tool.png in Resources */,
+				B93CD80B1C1677500090F416 /* Launch Screen.storyboard in Resources */,
+				B93CD8521C16791B0090F416 /* MathFunction.csv in Resources */,
 				B9FFD68216CBC62100315F3B /* MathFunction.csv in Resources */,
 				B9F1E5EC16E63CAE00A3AB9F /* view.png in Resources */,
+				B93CD8481C16790C0090F416 /* button_normal.png in Resources */,
+				B93CD84F1C16790C0090F416 /* unview.png in Resources */,
 				B9F1E5EE16E63E1800A3AB9F /* unview.png in Resources */,
+				B93CD84B1C16790C0090F416 /* button_normal_gray.png in Resources */,
 				B9F1E5F016E63FB200A3AB9F /* tool.png in Resources */,
 				B911C01D16EDF74E0078C3AF /* button_normal.png in Resources */,
+				B93CD8501C16790C0090F416 /* view.png in Resources */,
 				B911C02016EE051C0078C3AF /* dark_noise_bkg.png in Resources */,
+				B93CD84C1C16790C0090F416 /* button_selected.png in Resources */,
 				B911C02216EE06340078C3AF /* button_selected.png in Resources */,
 				B911C02816EE1B070078C3AF /* button_normal_bulue.png in Resources */,
+				B93CD84D1C16790C0090F416 /* plus_alt_24x24.png in Resources */,
 				B911C02A16EE1D450078C3AF /* button_normal_gray.png in Resources */,
 				B95D545416F2D83300519F1D /* button_normal_bulue_140.png in Resources */,
 				B95D545716F2EC1E00519F1D /* plus_alt_24x24.png in Resources */,
@@ -332,24 +388,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93CD8391C16786A0090F416 /* UIColor+Random.m in Sources */,
+				B93CD8231C1678140090F416 /* ViewController.m in Sources */,
+				B93CD8361C16786A0090F416 /* MathFunction.m in Sources */,
 				B9FCF88115F505C2005B94E8 /* main.m in Sources */,
+				B93CD8221C1678140090F416 /* FunctionListViewController.m in Sources */,
+				B93CD8381C16786A0090F416 /* Operator.m in Sources */,
 				B9FCF88515F505C2005B94E8 /* AppDelegate.m in Sources */,
-				B9FCF88B15F505C2005B94E8 /* ViewController.m in Sources */,
-				B94AE91C15FC1A6400AC0342 /* UICoordinateView.m in Sources */,
-				B94AE91F15FC1C3E00AC0342 /* UIFunctionsView.m in Sources */,
-				B94AE92515FC2A3C00AC0342 /* UIScaleView.m in Sources */,
-				B9967F5D15FF813400886559 /* XYMathFunction.m in Sources */,
-				B9967F6515FF83F500886559 /* UIGridView.m in Sources */,
-				B975B5BA1600C440008E8261 /* UIColor+Random.m in Sources */,
-				B9A7DAC0160374E700B0098D /* FunctionListViewController.m in Sources */,
-				B9A7DAC516038FF500B0098D /* AddFunctionViewController.m in Sources */,
-				B9777703160F5BDE00EC4CDA /* XYOption.m in Sources */,
-				B9777709160F610F00EC4CDA /* XYArithmetic.m in Sources */,
+				B93CD83A1C16786A0090F416 /* XYArithmetic.m in Sources */,
+				B93CD8191C1677CA0090F416 /* UIGridView.m in Sources */,
+				B93CD8211C1678140090F416 /* AddFunctionViewController.m in Sources */,
+				B93CD8171C1677CA0090F416 /* UICoordinateView.m in Sources */,
+				B93CD83D1C16786A0090F416 /* XYOption.m in Sources */,
+				B93CD8181C1677CA0090F416 /* UIFunctionsView.m in Sources */,
 				B9711530164D656F0007F28C /* XY.xcdatamodeld in Sources */,
-				B9FFD68016CB79C400315F3B /* Operator.m in Sources */,
-				B936836316D10B9E00F4CA3F /* MathFunction.m in Sources */,
-				B970619A16DB32FC00F642E3 /* Expression.m in Sources */,
-				B9015BE016EC9A0400BF2A76 /* XYError.m in Sources */,
+				B93CD8351C16786A0090F416 /* Expression.m in Sources */,
+				B93CD81A1C1677CA0090F416 /* UIScaleView.m in Sources */,
+				B93CD83C1C16786A0090F416 /* XYMathFunction.m in Sources */,
+				B93CD83B1C16786A0090F416 /* XYError.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +493,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = XY;
 				PROVISIONING_PROFILE = "65A2AEB9-323F-46B5-8749-7C4E72D69CC2";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -453,7 +509,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = XY;
 				PROVISIONING_PROFILE = "65A2AEB9-323F-46B5-8749-7C4E72D69CC2";
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
